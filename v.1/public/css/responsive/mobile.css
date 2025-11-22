@@ -1,0 +1,128 @@
+/* responsive/mobile.css - Стили для мобильных устройств */
+
+@media (max-width: 480px) {
+    /* Общее */
+    body {
+        font-size: var(--font-size-small);
+    }
+
+    /* Заголовки */
+    .index_title,
+    .about_title,
+    .gallery_title,
+    .services_title,
+    .contacts_title,
+    .review_title,
+    .advantages_title {
+        font-size: 24px !important;
+    }
+
+    /* Шапка */
+    .logo {
+        font-size: 20px !important;
+    }
+
+    .header_container {
+        padding: var(--spacing-sm) var(--spacing-md);
+    }
+
+    /* Контейнеры */
+    .container,
+    .about_container,
+    .gallery_container,
+    .services_container,
+    .contacts_container {
+        padding: 0 var(--spacing-md);
+    }
+
+    /* Текст */
+    .index_voda,
+    .advantages_voda,
+    .gallery_voda,
+    .review_voda,
+    .about_text_block,
+    .gallery_voda_text,
+    .services_voda_text,
+    .contacts_voda_text {
+        font-size: 14px !important;
+        padding: 0 var(--spacing-sm) !important;
+    }
+
+    /* Карточки */
+    .advantage,
+    .service_card,
+    .team_member,
+    .gallery_card {
+        max-width: 100%;
+        padding: var(--spacing-md) !important;
+    }
+
+    /* Галерея */
+    .gallery_list {
+        grid-template-columns: 1fr !important;
+        gap: var(--spacing-md);
+    }
+
+    .gallery_card img {
+        height: 200px;
+    }
+
+    /* Формы */
+    .form_container {
+        padding: 25px var(--spacing-md) !important;
+    }
+
+    .form_title {
+        font-size: 22px !important;
+    }
+
+    .form_button {
+        width: 90% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Таблицы */
+    table {
+        font-size: 11px !important;
+    }
+
+    table th,
+    table td {
+        padding: 6px !important;
+        font-size: 11px !important;
+    }
+
+    /* Подвал */
+    .footer {
+        padding: var(--spacing-lg) var(--spacing-md);
+    }
+
+    .footer_copy,
+    .footer_contacts {
+        font-size: 13px;
+    }
+
+    /* Секции услуг */
+    .list_process {
+        padding: var(--spacing-lg) !important;
+    }
+
+    .list_process_title {
+        font-size: 22px !important;
+    }
+
+    .process_list {
+        font-size: 14px !important;
+        padding-left: var(--spacing-lg);
+    }
+
+    /* Контакты */
+    .contact_map {
+        padding: var(--spacing-lg) !important;
+    }
+
+    .contact_map iframe {
+        height: 300px;
+    }
+}

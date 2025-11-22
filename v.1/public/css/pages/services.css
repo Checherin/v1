@@ -1,0 +1,137 @@
+/* =================== pages/services.css - Услуги =================== */
+
+.services_section {
+    padding: 40px 0;
+    background-color: #eee;
+}
+
+.services_container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.services_title {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.services_voda_text {
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+    max-width: 1100px;
+    margin: 0 auto 20px auto;
+    color: #555;
+    padding: 0 20px;
+}
+
+.services_instruction_title {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.services_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.list_process {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 40px;
+    margin-bottom: 40px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list_process_title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.process_voda_text {
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.process_list {
+    padding-left: 30px;
+    margin: 0 0 25px 0;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.process_list li {
+    margin-bottom: 15px;
+}
+
+.process_button_in_contact {
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media (max-width: 777px) {
+    .services_title {
+        font-size: 30px;
+    }
+
+    .services_voda_text {
+        font-size: 15px;
+        padding: 0 15px;
+    }
+
+    .services_instruction_title {
+        font-size: 26px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .services_list {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        margin-bottom: 40px;
+    }
+
+    .service_card {
+        width: 100%;
+        max-width: 350px;
+        padding: 25px 20px;
+    }
+
+    .list_process {
+        padding: 25px;
+    }
+
+    .list_process_title {
+        font-size: 26px;
+    }
+
+    .process_voda_text,
+    .process_list {
+        font-size: 15px;
+    }
+
+    .process_list {
+        padding-left: 25px;
+    }
+}

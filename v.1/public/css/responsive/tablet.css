@@ -1,0 +1,54 @@
+/* responsive/tablet.css - Стили для планшетов */
+
+@media (min-width: 481px) and (max-width: 777px) {
+    /* Галерея */
+    .gallery_list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-md);
+    }
+
+    /* Преимущества */
+    .advantages_list {
+        justify-content: space-around;
+    }
+
+    .advantage {
+        width: 45%;
+        min-width: 250px;
+    }
+
+    /* Услуги */
+    .services_list {
+        justify-content: space-around;
+    }
+
+    .service_card {
+        width: 45%;
+        min-width: 250px;
+    }
+
+    /* Команда */
+    .team_members {
+        justify-content: space-around;
+    }
+
+    .team_member {
+        width: 45%;
+        min-width: 250px;
+    }
+
+    /* Контакты */
+    .contacts_content {
+        flex-direction: column;
+    }
+
+    .contact_information,
+    .contact_form {
+        max-width: 100%;
+    }
+
+    /* Формы */
+    .form_container {
+        max-width: 600px;
+    }
+}

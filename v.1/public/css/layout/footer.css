@@ -1,0 +1,52 @@
+/* =================== layout/footer.css - Подвал =================== */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer_copy {
+    font-size: 15px;
+}
+
+.footer_contacts {
+    font-size: 15px;
+}
+
+.footer_contacts p {
+    margin: 5px 0;
+}
+
+.footer_social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer_social_link img {
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.3s;
+}
+
+.footer_social_link img:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 777px) {
+    .footer_container {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+}

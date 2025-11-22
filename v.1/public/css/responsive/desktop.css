@@ -1,0 +1,11 @@
+@media (min-width: 1000px) {
+    /* Галерея - 3 колонки */
+    .gallery_list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Контейнеры увеличенной ширины */
+    .services_container {
+        max-width: var(--container-xl);
+    }
+}

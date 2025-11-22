@@ -1,0 +1,50 @@
+/* =================== modules/messages.css - Сообщения =================== */
+
+.error-message,
+.message-error {
+    color: #f44336;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffebee;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 4px solid #f44336;
+}
+
+.success-message,
+.message-success {
+    color: #4CAF50;
+    text-align: center;
+    padding: 10px;
+    background-color: #e8f5e9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 4px solid #4CAF50;
+}
+
+.warning-message {
+    color: #ff9800;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff3e0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 4px solid #ff9800;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: #999;
+}
+
+.empty-state p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}

@@ -1,0 +1,29 @@
+dekko-php/
+│
+├── application/
+│   └── connect.php          # Подключение к БД
+│
+├── database/
+│   └── schema.sql           # SQL-схема БД
+│
+├── public/
+│   ├── css/
+│   │   └── style.css        # Стили (из HTML-версии)
+│   │
+│   ├── photo/               # Изображения (из HTML-версии)
+│   │
+│   ├── admin/
+│   │   └── dashboard.php    # Админ-панель
+│   │
+│   ├── user/
+│   │   └── profile.php      # Личный кабинет
+│   │
+│   ├── login.php            # Авторизация
+│   ├── register.php         # Регистрация
+│   ├── logout.php           # Выход
+│   ├── about.php            # О нас (из HTML)
+│   ├── gallery.php          # Галерея (из HTML)
+│   ├── services.php         # Услуги (из HTML)
+│   └── contacts.php         # Контакты (из HTML)
+│
+└── index.php                # Главная страница

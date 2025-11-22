@@ -1,0 +1,42 @@
+/* =================== pages/gallery.css - Галерея =================== */
+
+.gallery_section {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.gallery_section_eee {
+    background-color: #eee;
+}
+
+.gallery_section_white {
+    background-color: #fff;
+}
+
+.gallery_voda_text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.gallery_images_title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+    color: #333;
+}
+
+@media (max-width: 777px) {
+    .gallery_images_title {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    .gallery_voda_text {
+        font-size: 15px;
+        padding: 0 15px;
+    }
+}

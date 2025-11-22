@@ -1,0 +1,87 @@
+/* modules/buttons.css - Кнопки */
+
+.button {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #666;
+}
+
+.button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 6px 12px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    transition: opacity 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-approve {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-reject {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #555;
+    color: white;
+}
+
+.contact_button {
+    background-color: #444;
+    color: #fff;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.contact_button:hover {
+    background-color: #666;
+}
+
+.contact_form_button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 14px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.contact_form_button:hover {
+    background-color: #666;
+}

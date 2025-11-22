@@ -1,0 +1,30 @@
+/* layout/header.css - Шапка */
+
+.header {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.logo a {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.logo a:hover {
+    color: #666;
+}
