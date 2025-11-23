@@ -1,0 +1,7 @@
+/* css/responsive/tablet.css - Стили для планшетов */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .gallery_list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

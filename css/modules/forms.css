@@ -1,0 +1,86 @@
+/* css/modules/forms.css - Стили форм */
+
+.form_section {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+    min-height: 70vh;
+}
+
+.form_container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.form_title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form_voda_for_form {
+    font-size: 15px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main_form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_polya {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_polya label {
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.main_form input,
+.main_form textarea,
+.main_form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.main_form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.form_button {
+    background-color: #444;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form_button:hover {
+    background-color: #666;
+}
+
+.form_transport_text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.form_transport_text a {
+    color: #444;
+    font-weight: 600;
+}

@@ -1,0 +1,19 @@
+/* css/modules/messages.css - Стили сообщений */
+
+.error-message {
+    color: #f44336;
+    background-color: #ffebee;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.success-message {
+    color: #4CAF50;
+    background-color: #e8f5e9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}

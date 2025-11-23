@@ -1,0 +1,25 @@
+/* css/layout/navigation.css - Стили навигации */
+
+.navigation_list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.navigation_link {
+    padding: 8px 15px;
+    color: #333;
+    border-radius: 5px;
+}
+
+.navigation_link:hover {
+    background-color: #f0f0f0;
+}
+
+.navigation_link_use {
+    padding: 8px 15px;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}

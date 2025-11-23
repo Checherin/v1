@@ -1,0 +1,45 @@
+/* css/modules/buttons.css - Стили кнопок */
+
+.button {
+    background-color: #444;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #666;
+}
+
+.button a {
+    color: #fff;
+}
+
+.contact_button {
+    background-color: #444;
+    color: #fff;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.contact_button:hover {
+    background-color: #666;
+}
+
+.contact_form_button {
+    background-color: #444;
+    color: #fff;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact_form_button:hover {
+    background-color: #666;
+}

@@ -1,0 +1,145 @@
+/* css/pages/index.css - Стили главной страницы */
+
+.index {
+    background-color: #eee;
+    padding: 40px 20px;
+}
+
+.index_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.index_text {
+    flex: 1;
+}
+
+.index_title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.index_comment {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.index_voda {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.index_image {
+    flex: 1;
+}
+
+.index_image img {
+    border-radius: 10px;
+}
+
+.advantages {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.advantages_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.advantages_title {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.advantages_voda {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 40px;
+    font-size: 16px;
+    color: #666;
+}
+
+.advantages_list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.gallery {
+    padding: 40px 20px;
+    background-color: #eee;
+}
+
+.gallery_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gallery_title {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.gallery_voda {
+    max-width: 900px;
+    margin: 0 auto 40px;
+    font-size: 16px;
+    color: #666;
+}
+
+.gallery_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.gallery_list img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery_list img:hover {
+    transform: scale(1.05);
+}
+
+.review-section {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.review_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.review_title {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.review_voda {
+    max-width: 900px;
+    margin: 0 auto 40px;
+    font-size: 16px;
+    color: #666;
+}
+
+.review_list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}

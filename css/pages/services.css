@@ -1,0 +1,78 @@
+/* css/pages/services.css - Стили страницы услуг */
+
+.services_section {
+    padding: 40px 20px;
+    background-color: #eee;
+}
+
+.services_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services_title {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.services_voda_text {
+    font-size: 16px;
+    text-align: justify;
+    max-width: 1100px;
+    margin: 0 auto 20px;
+    color: #555;
+    padding: 0 20px;
+}
+
+.services_instruction_title {
+    font-size: 32px;
+    text-align: center;
+    margin: 50px 0 40px;
+}
+
+.services_list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.list_process {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 1100px;
+    margin: 0 auto 40px;
+}
+
+.list_process_title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.process_voda_text {
+    font-size: 16px;
+    text-align: justify;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.process_list {
+    padding-left: 30px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #555;
+}
+
+.process_list li {
+    margin-bottom: 15px;
+}
+
+.process_button_in_contact {
+    text-align: center;
+    margin-top: 30px;
+}

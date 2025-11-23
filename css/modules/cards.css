@@ -1,0 +1,141 @@
+/* css/modules/cards.css - Стили карточек */
+
+.advantage {
+    width: 260px;
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.advantage:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.advantage_icon {
+    width: 80px;
+    margin: 0 auto 15px;
+}
+
+.advantage_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.advantage_comment {
+    font-size: 15px;
+    color: #666;
+}
+
+.gallery_card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gallery_card:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.gallery_card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.gallery_comment {
+    padding: 15px;
+    font-size: 15px;
+    color: #555;
+}
+
+.service_card {
+    width: 280px;
+    padding: 30px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service_card:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.service_icon {
+    width: 80px;
+    margin: 0 auto 15px;
+}
+
+.service_name {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.service_comment {
+    font-size: 15px;
+    color: #666;
+}
+
+.team_member {
+    width: 280px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.team_member:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.team_member img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.team_member h4 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.team_member_position {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.team_member_description {
+    font-size: 14px;
+    color: #777;
+}
+
+.review {
+    max-width: 350px;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.review:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.review_text {
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.review_user {
+    font-weight: bold;
+    text-align: right;
+    font-size: 15px;
+}

@@ -1,0 +1,35 @@
+/* css/pages/gallery.css - Стили страницы галереи */
+
+.gallery_section {
+    padding: 40px 20px;
+}
+
+.gallery_section_eee {
+    background-color: #eee;
+}
+
+.gallery_section_white {
+    background-color: #fff;
+}
+
+.gallery_voda_text {
+    font-size: 16px;
+    color: #555;
+    text-align: justify;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.gallery_images_title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.gallery_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}

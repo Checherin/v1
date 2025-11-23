@@ -1,0 +1,25 @@
+/* ОСНОВНЫЕ СТИЛИ */
+@import url('base/global.css');
+/* БЛОКИ */
+@import url('layout/header.css');
+@import url('layout/footer.css');
+@import url('layout/navigation.css');
+/* МОДУЛИ */
+@import url('modules/buttons.css');
+@import url('modules/forms.css');
+@import url('modules/cards.css');
+@import url('modules/tables.css');
+@import url('modules/messages.css');
+/* СТРАНИЦЫ */
+@import url('pages/index.css');
+@import url('pages/about.css');
+@import url('pages/gallery.css');
+@import url('pages/services.css');
+@import url('pages/contacts.css');
+@import url('pages/auth.css');
+@import url('pages/profile.css');
+@import url('pages/admin.css');
+/* АДАПТИВНОСТЬ  */
+@import url('responsive/mobile.css');
+@import url('responsive/tablet.css');
+@import url('responsive/desktop.css');
